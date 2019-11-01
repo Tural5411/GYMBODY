@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#Home1{
+    background-image: url(https://wallpaperplay.com/walls/full/2/a/3/32718.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 230px 0;
+    position: relative;
+}
+.feelyourbody{
+    position: absolute;
+    top: 0%;
+}
+.home1-text h1{
+    font-size: 65px;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    color:White;
+    letter-spacing: 1px;
+}
+.home1-text p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    color:white;
+    font-family: 'Teko', sans-serif;
+}
+.home1-text button{
+    z-index: 8;
+    background-color: rgb(222, 79, 97);
+    font-family: Teko;
+    cursor: pointer;
+    outline: none;
+    line-height: 22px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 26px;
+    border-color: rgba(255, 255, 255, 0);
+    padding: 12px 24px;
+    color:white;
+    transition: all 0.3s linear;
+}
+.home1-text button:hover{
+    background: rgba(219, 54, 76, 0.726);
+    color: rgba(255, 255, 255, 0.932);
+}
+.row1{
+    display: flex;
+}
+.color{
+    background: black;
+    
+} 
+/*NavbarSection !!!!! Start */
+.navbar{
+  position: absolute;
+  top: 3%;
+  left: 15%;
+  background: none;
+  width: 80%;
+}
+.navbar-nav{
+    margin-left: 150px;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.nav-link{
+    color:rgba(207, 24, 24, 0.582);
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Teko', sans-serif;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 0.3s ;
+}
+/*NavbarSection !!!!! Finish */
+
+
+
+/*SliderSection Start!!! */ 
+
+#home2{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    
+    background-image:  url(https://wallpapercave.com/wp/wp2639534.jpg);
+}
+.slider{
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    margin: 0 auto;
+}
+.slider ul{
+    list-style: none;
+    position: relative;
+    left: 0%;
+    transition: all 0.3s cubic-bezier(0.86, 0, 0.07, 1) ;
+   
+
+}
+
+.slider img{
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    
+    
+}
+.prev,.next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.prev{
+    left: 15px;
+}
+.next{
+    right: 15px;
+}
+.slider i{
+    font-size: 45px;
+    color:white;
+
+}
+.slider i:hover{
+    color:rgba(138, 138, 138, 0.575);
+}
+/*111111111111111111111*/
+
+#home3{
+    background: black;
+    padding: 100px 0;
+    color:white;
+    font-family: 'Teko', sans-serif;
+}
+#home3 h1{
+    font-size: 100px;
+}
+#home3 p{
+    font-size: 20px;
+}
+#home4{
+    font-family: 'Teko', sans-serif;
+   
+}
+
+.wrapper1{
+    margin:0  auto ;
+    font-weight: 700;
+    text-align: center;
+    width: 400px;
+    height: 800px;
+    
+}
+.panel{
+    padding: 0 18px;
+    color: #000;
+    max-height: 0;
+    overflow: hidden;
+    width: 67.45%;
+    margin: 0 auto;
+    transition: all 0.3s ease-in;
+}
+.pack{
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid grey;
+    background: linear-gradient(to bottom,rgba(219, 0, 226, 0.808),rgba(221, 11, 151, 0.788),rgba(207, 96, 5, 0.795));
+}
+.pack p{
+    font-size: 25px;
+    color:white;
+    font-weight: 500;
+}
+.between{
+    justify-content: space-between;
+}
+#home4 button{
+    padding: 5px 30px;
+    border: none;
+    cursor: pointer;
+    color:white;
+    transform: rotate(0deg);
+    transition: all .3s ease-in;
+    background: linear-gradient(to right,  rgba(240, 216, 5, 0.822),rgba(218, 7, 7, 0.856));
+
+}
+#home4 button:hover{
+    transform: scale(1.075);
+    transform: rotate(360deg);
+    background:linear-gradient(to left,rgba(240, 216, 5, 0.822),rgba(218, 7, 7, 0.856));
+}
+#home4 button:focus{
+    outline: none;
+}
+
+
+#home5{
+    padding: 100px 0;
+    background-position: center center;
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background: black;
+    position: relative;
+    font-family: 'Teko', sans-serif;
+}
+#home5 .container{
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image: url(https://themes.muffingroup.com/be/gym3/wp-content/uploads/2019/04/gym3_pic11.png);
+}
+#home5 h1{
+    color:white;
+    font-size: 70px;
+    letter-spacing: 1px;    
+}
+#home5 h4{
+    color:white;
+    font-size: 50px;
+    letter-spacing: 1px;    
+}
+#end{
+    background: black;
+    font-family: 'Teko', sans-serif;
+    border: 1px solid rgb(44, 44, 44);
+    color: white;
+    margin: 0 auto;
+}
